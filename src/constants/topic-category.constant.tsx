@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 export const CREATE_TOPIC_CATEGORY = [
-  { id: 1, label: "전체", category: "", icon: <List /> },
+  { id: 1, label: "전체", category: "all", icon: <List /> },
   { id: 2, label: "인문학", category: "humanity", icon: <Lightbulb /> },
   { id: 3, label: "스타트업", category: "start-up", icon: <Rocket /> },
   { id: 4, label: "IT·프로그래밍", category: "programming", icon: <CodeXml /> },
